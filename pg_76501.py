@@ -9,6 +9,3 @@ def solution(absolutes, signs):
             answer -= absolutes[i]
 
     return answer
-
-
-solution([4,7,12], [true,false,true])
