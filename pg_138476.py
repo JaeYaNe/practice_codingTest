@@ -2,7 +2,6 @@ from collections import Counter
 
 def solution(k, tangerine):
 
-    a = {}
     a = Counter(tangerine)
     a = dict(sorted(a.items(), key=lambda x: x[1], reverse=True))
 
