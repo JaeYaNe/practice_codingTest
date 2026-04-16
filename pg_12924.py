@@ -4,7 +4,7 @@ def solution(n):
     for i in range(1, n // 2 + 1):
         current_sum = 0
         next_num = i
-        box = str(i)
+        box = str(i) 
         while current_sum < n:
             current_sum += next_num
             next_num += 1
