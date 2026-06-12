@@ -3,6 +3,7 @@ def solution(k, dungeons):
     ans = 0
 
     def dfs(current_k, count):
+        print(current_k, count)
         nonlocal ans
         ans = max(ans, count)
 
